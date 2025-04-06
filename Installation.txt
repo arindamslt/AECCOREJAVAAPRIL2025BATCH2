@@ -1,0 +1,28 @@
+JAVA17 INSTALLATION
+==============================================
+https://www.oracle.com/in/java/technologies/downloads/#jdk17-windows
+THEN GO TO JDK17
+THEN CLICK ON X64 Installer IT WILL DOWNLOAD EXEC FILE
+CLICK ON EXE FILE AND INSTALL IT
+ECLISPE IDE DOWNLOAD
+=========================================================================
+https://www.eclipse.org/downloads/packages/release/2024-03/r/eclipse-ide-enterprise-java-and-web-developers
+
+STS DOWNLOAD
+==================================================================================
+https://spring.io/tools
+==================================================================================
+MYSQL INSTALLATION
+===============================================
+https://www.youtube.com/watch?v=0AF0w_OJyDs
+===============================================
+GITHUB LINK
+======================================================
+=========================================================
+JDBC
+================================================
+DRIVERNAME=com.mysql.cj.jdbc.Driver
+URL=jdbc:mysql://localhost:3306/test
+USERNAME=root
+PASSWORD=arindam
+
