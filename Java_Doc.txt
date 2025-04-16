@@ -10,19 +10,32 @@ FEATURES OF JAVA
 2.OBJECT ORIENTED PROGRAMMING
 3.DISTRIBUTED
 4.MULTITHREADING
+COMPILE THE JAVA PROGRAM
+================================================================
 javac X.java===JAVA COMPILER======JAVA BYTES CODES====X.class
+=============================================================
+RUN THE JAVA PROGRAM
+==============================================================
 java X====JVM(JAVA VIRTUAL MACHINE)===o/p
+==============================================================
 JVM=-==JAVA VIRTUAL MACHINE
 IT IS AN ABSTRACT MACHINE WHOSE PURPOSE TO EXECUTE COMPILED JAVA CLASS
+=================================================================
+JDK===JAVA DEVELOPMENT TOOL KIT====JAVA COMPILER+JRE
+JRE====JAVA RUNTIME ENVIRONMENT====JRE+JVM
+JVM====JAVA VIRTUAL MACHINE======JIT IS PART OF JVM
+JIT====JUST IN TIME COMPILER
+
 ==========================================================================
 NOTEPAD
 NOTEPAD++
-IDE==INGRATED ENVIRONMENT
+IDE==INGRATED  DEVELOPMENT ENVIRONMENT
 ====================================
-ECLIPSE IDE,NETNEANS,INTEIJII,STS
+ECLIPSE IDE,NETNEANS,INTELIJII,STS
 ========================================
 JAVA17 ONWARDS
 ECLIPSE EE VERSION
+
 ======================================================================
 OBJECT ORIENTED PROGRAMMING
 =====================================================================================
@@ -51,8 +64,8 @@ BINDING OF DATA AND METHOD TOGETHER
 ==========================================================================
 TYPES OF VARIABLE
 ==========================================================================
-1.INSTANCE VARIABLE
-2.LOCAL VARIABLE
+1.INSTANCE VARIABLE====DECLARED AT CLASS LEVEL
+2.LOCAL VARIABLE=======DECLARED AT THE METHOD LEVEL
 3.STATIC VARIABLE
 ===============================================================================
 2.POLYMORPHISM
@@ -79,6 +92,7 @@ PURPOSE
 =================================================
 1.OBJECT CREATION
 2.AT THE TIME OF OBJECT CREATION INITIALIZE THE OBJECT
+CONSTRUCTOR OVERLOADDING
 INHERITANCE
 =============================================
 AQURING THE PROPERTY FROM ONE CLASS TO ANOTHER CLASS
@@ -98,7 +112,8 @@ UTILITY OF SUPER KEYWORD
 =========================================================
 1.CALL THE SUPER CLASS CONSTRUCTOR
 2.CALL THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
-
+MULTIPLE INHERITANCE IS NOT SUPPORTED IN JAVA DUE TO AMBIGUITY PROBLEM.
+MULTIPLE INHERITANCE WILL BE OVERCOME BY MEANS OF INTERFACE
 ABSTRACT CLASS
 ================================================================================
 IF THE CLASS AT LEAST ONE ABSTRACT METHOD.THEN THE CLASS TERMED AS AN ABSTRACT CLASS
