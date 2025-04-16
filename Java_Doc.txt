@@ -1,3 +1,131 @@
 GITHUB LINK
 ======================================================================
 https://github.com/arindamslt/AECCOREJAVAAPRIL2025BATCH2.git
+======================================================================
+DATE:16.04.2025
+============================================================================================
+FEATURES OF JAVA
+=============================================================
+1.PLATFORM INDEPENDENT
+2.OBJECT ORIENTED PROGRAMMING
+3.DISTRIBUTED
+4.MULTITHREADING
+javac X.java===JAVA COMPILER======JAVA BYTES CODES====X.class
+java X====JVM(JAVA VIRTUAL MACHINE)===o/p
+JVM=-==JAVA VIRTUAL MACHINE
+IT IS AN ABSTRACT MACHINE WHOSE PURPOSE TO EXECUTE COMPILED JAVA CLASS
+==========================================================================
+NOTEPAD
+NOTEPAD++
+IDE==INGRATED ENVIRONMENT
+====================================
+ECLIPSE IDE,NETNEANS,INTEIJII,STS
+========================================
+JAVA17 ONWARDS
+ECLIPSE EE VERSION
+======================================================================
+OBJECT ORIENTED PROGRAMMING
+=====================================================================================
+CLASS
+OBJECT==REAL WORLD ENTITY
+CLASS==COLLECTION OF OBJECTS WITH COMMON PROPERTIES AND BEHAVIOUR
+        IT IS A DEAD TEMPLATE
+CHAIR TABLE BOOKSHELF FURNITURE
+LENGTH
+WIDTH
+HEIGHT===================COMMON PROPERTIES
+KEEPINGSOMETHING()
+UML===UNIFIED MODELLING LANGUAGE
+==============================================================
+PURPOSE
+==========================================================
+TO DRAW THE CLASS DIAGRAM
+WORKSSPACE
+=====================================================================
+FEATURES OF OBJECT ORIENTED PROGRAMMING
+=====================================================================
+1.ENCAPSULATION
+===================================================================
+CROCIN650
+BINDING OF DATA AND METHOD TOGETHER
+==========================================================================
+TYPES OF VARIABLE
+==========================================================================
+1.INSTANCE VARIABLE
+2.LOCAL VARIABLE
+3.STATIC VARIABLE
+===============================================================================
+2.POLYMORPHISM
+===============================================================================
+POLY==MANY
+MORPHISM==FORMS
+TYPES OF POLYMORPHISM
+================================================
+1.STATIC POLYMORPHISM======DETECT AT THE COMPILATION TIME
+2.DYNAMIC POLYMORPHISM=====DETECT AT THE RUN TIME
+TASK(int a,int b)
+TASK(int a.float b)
+TASK()
+TASK(5,6)
+TASK(5,6.5)
+METHOD OVERLOADDING
+===============================================
+SAME METHOD WITH DIFFERENT ARGUMENT PASSING IN THE SAME BUT BODY IS DIFFRENT
+CONSTRUCTOR
+===================================================
+CONSTRUCTOR IS THE SAME NAME OF CLASS NAME.IT IS NOT EVENT VOID OR RETURN TYPE
+BECAUSE IT RETURN A CLASS ITESELF.
+PURPOSE
+=================================================
+1.OBJECT CREATION
+2.AT THE TIME OF OBJECT CREATION INITIALIZE THE OBJECT
+INHERITANCE
+=============================================
+AQURING THE PROPERTY FROM ONE CLASS TO ANOTHER CLASS
+============================================================================
+TYPES OF INHERITANCE
+==================================================
+1.SINGLE INHERITANCE
+2.MULTILEVEL INHERITANCE
+3.HIERARCHICAL INHERITANCE
+DYNAMIC POLYMORPHISM
+============================================
+DYNAMIC POLYMORPHISM IS CALLED METHOD OVERRIDDING
+METHODOVERRING
+==============================================
+SAME METHOD NAME BOTH IN PARENT AS WELL AS CHILD CLASS BUT BODY IS DIFFERENT
+UTILITY OF SUPER KEYWORD
+=========================================================
+1.CALL THE SUPER CLASS CONSTRUCTOR
+2.CALL THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
+
+ABSTRACT CLASS
+================================================================================
+IF THE CLASS AT LEAST ONE ABSTRACT METHOD.THEN THE CLASS TERMED AS AN ABSTRACT CLASS
+abstract class Tst
+{
+  public abstract void show();
+}
+ABSTRACT METHOD
+=====================================================
+THE METOD WITHOUT BODY IS CALLED ABSTRACT METHOD
+EX:public abstract void show();
+WE CAN'T CREATE THE OBJECT OF ABSTRACT CLASS
+==========================================================================================
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
