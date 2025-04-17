@@ -120,6 +120,10 @@ IF THE CLASS AT LEAST ONE ABSTRACT METHOD.THEN THE CLASS TERMED AS AN ABSTRACT C
 abstract class Tst
 {
   public abstract void show();
+void display()
+{
+
+}
 }
 ABSTRACT METHOD
 =====================================================
@@ -127,6 +131,122 @@ THE METOD WITHOUT BODY IS CALLED ABSTRACT METHOD
 EX:public abstract void show();
 WE CAN'T CREATE THE OBJECT OF ABSTRACT CLASS
 ==========================================================================================
+DATE:17.04.2025
+=========================================================================================
+
+public abstract void display();
+
+
+class Test
+{
+  int x=25;
+   public void show()
+   {
+
+    }
+
+}
+ Test t=new Test();
+Test t1;//OBJECT REFERENCE
+int x;
+DYNAMIC BINDING
+=========================================================
+DYNAMIC BINDING DECIDES AT THE RUNTIME WHICH OBJECTS WHICH METHOD TO BE CALLED.
+MODIFIER
+====================================================================================
+MODIFIER TELLS HOW A MEMBER OF A CLASS IS BEING ACCESSED INTO ANOTHER CLASS
+
+LIST OF MODIFIERS
+========================================
+PRIVATE==============================
+PUBLIC           ACCESS SPECIFIER
+PROTECTED
+DEFAULT==============================
+STATIC
+FINAL
+ABSTRACT
+SYNCHRONIZED
+NATIVE
+==========================================
+PACKAGE
+===============================================
+COLLECTION OF SIMILLAR TYPES OF CLASS GROUP TOGETHER INTO A UNIT CALLED PACKAGE
+
+PRIVATE MEMEBRS ARE ACCESSABLE SAME CLASS ONLY.
+DEFAULT MEMBER ARE ACCESSABLE SAME CLASS AND IT'S SUBCLASS BUT MUST BE IN SAME PACKAKE
+PROTECTED AND PUBLIC MEMBERS ARE ACCESSABLE SAME CLASS AND IT'S SUBCALSS MAY BE IN
+DIFFERENT PACKAGE.
+=====================================================================================
+STATIC
+==========================================================
+THE STATIC ACCESSABLE WITH THE CLASS NAME.NO NEED TO CREATE A OBJECT FOR ACCESS THE STATIC MEMBER.
+STATIC MEMBER ARE ACCESSABLE IN THE STATIC METHOD
+STATIC BLOCK
+================================================================
+static
+{
+
+
+}
+STATIC BLOCK EXECUTES ONLY ONE AND IT EXECUTES FIRST.
+IT ACCESS ONLY STATIC VARIABLE AND STATIC METHOD
+
+IF WE DECLARE THE VARIABLE IS FINAL IT IS A CONSTANT
+IF WE DECLARE THE METHOD IS IT CAN'T BE OVERRIDDEN
+IF WE DECLARE THE CLASS IS FINAL IT CAN'T BE EXTENDED
+=============================================================================
+THIS
+================================================================================
+INVOKE THE CURRENT OBJECT
+WHEN
+===========================================
+WHEN INSTANCE VARIABLE AND THE LOCAL VARIABLE IS SAME
+INVOKING ONE METHOD WITHIN ANOTHER METHOD IF BOTH ARE IN SAME CLASS.
+===============================================================================
+SUPER
+=================================================================================
+1.CALL THE SUPER CLASS CONSTRUCTOR
+2.CALL THE SUPER CLASS METHOD WHICH IS HIDDEN IN SUBCLASS
+=================================================================================
+NETSED CLASS
+==========================================
+CLASS WITH IN CLASS
+class X
+{
+
+    class Y =====INNER CLASS===NON STATIC NESTED CLASS IS CALLED INNER CLASS
+    {
+
+
+    }
+
+}
+============================================================================
+INTERFACE
+==============================================================================
+
+INTERFACE IS AN CONTRACT BETWEEN THE CLIENT CODE AND IMPLEMENTED CLASS
+public interface Test
+{
+
+
+}
+BY DEFAULT ALL  METHODS ARE PUBLIC AND ABSTRACT
+======================================================================================
+ABSTRACT CLASS VS INTERFACE
+======================================================================================
+CONSOLE INPUT OUTPUT
+======================================================================================
+TWO WAYS
+=====================================
+BUFFERREADER CLASS
+SCANNER CLASS======import java.util.*;
+
+
+
+
+
+
 
 
 
