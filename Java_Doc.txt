@@ -241,7 +241,98 @@ TWO WAYS
 =====================================
 BUFFERREADER CLASS
 SCANNER CLASS======import java.util.*;
+===================================================================================
+DATE:18.04.2025
+=================================================================================
+EXCEPTION HANDELLING
+=================================================================================
+ERROR VS EXCPETION
+================================================================
 
+EXCEPTION IS AN EVENT WHICH OCCUR DURING THE EXECUTION PROGRAM.
+WHEN YOU HANDLE THE EXCEPTION IT WILL PREVENT THE ABNORMAL TERMINATION PROGRAM.
+
+HIERARCHY OF EXCEPTION
+
+TYPES OF EXCEPTION
+==========================
+UNCHECKED=========RUNTIME EXCEPTION AND IT'S SUBCLASS CALLED UNCHECKED EXCEPTION
+CHECKED============OTHER THAN RUNTIME EXCEPTION ANS IT'S SUBCLASS CALLED CHECKED EXCEPTION
+CUSTOM EXCEPTION
+===============================
+EXCEPTION HANDLE BY
+==================================
+TRY
+CATCH
+FINALLY
+THROW
+THROWS
+EXCEPTION HANDELLING MESSAGE
+========================================
+ExceptionObject.printstacktrace()====EXCEPTION NAME ALONG WITH PACKAGE NAME
+                                      EXCEPTION MESSAGE
+                                     LINE NUMBER WHERE EXCEPTION OCCUR
+System.out.println(ExceptionObject);==== EXCEPTION NAME ALONG WITH PACKAGE NAME
+                                         EXCEPTION MESSAGE
+
+System.out.println(ExceptionObject.getMessage());===ONLY MESSAGE WILL BE DISPLAYED
+FINALLY
+=====================================================
+WHETHER EXCEPTION OCCUR OR NOT IT ALWAYS EXECUTE
+PURPOSE
+=================================================
+CLEANING UP TASK
+============================================================
+THROWS
+===========================================================
+WHEN YOU DO NOT USE TRY AND CATCH FOR EXCEPTION HANDELLING BUT STILL WANT TO HANDLE
+THE EXCEPTION THEN YOU CAN USE THROWS CLAUSE ALONG WITH THE METHOD.
+BUT THROWS SHOULD BE USED IN BOTH CALLER AS WELL AS CALLE ENVIRONMENT
+THROW KEYWORD
+============================================================
+IT IS USED WHEN YOU HAVE TO THROW THE EXCEPTION EXPLICITLY.
+LIST OF EXCEPTION
+======================================
+1.NullPointerException
+2.InputMismatchException
+3.NumberFormatException
+4.ArrayIndexOutOfBoundException
+5.ClassNotFoundException
+6.SQLException
+7.InterruptedException
+8.IOException
+=================================================================================
+ FLOW OF EXCEPTION
+====================================================================================
+STRING
+======================================================================================
+STRING IS A IMMUTABLE OBJECT
+String s=new String("ARUP");//STRING OBJECT
+String s1="ARUP";//STRING LITERAL
+======================================================================================
+String s1="KOLKATA"
+String S2="KOLKATA";
+salesperson
+====================================
+KOLKATA
+DELHI
+MUMBAI
+HYDRABAD
+StringBuffer
+StringBuilder
+s.concat
+s1.concat
+LIST OF IMPORTANT IN STRING
+===============================================================================
+isEmpty()
+toUpperCase()
+toLowerCase()
+indexOf()
+substring()
+trim()
+replace()
+split()
+===================================================================================
 
 
 
