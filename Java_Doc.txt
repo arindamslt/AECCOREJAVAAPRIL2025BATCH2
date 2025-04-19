@@ -333,21 +333,91 @@ trim()
 replace()
 split()
 ===================================================================================
+DATE:19.04.2025
+===================================================================================
+MULTITHREADING
+============================================================================
+1.MULTIPROCESSING
+========================================================================
+MULTIPLE PROCESS ARE RUNNING BY MULTIPLE CPU SIMULTENEOUSLY
+2.MULTITASKING
+=========================================================
+MUTIPLE TASKS ARE RUNNING SIMULTENEOUSLY BY SINGLE CPU
+3.MULTITHREADING
+====================================================
+MULTIPLE THREAD ARE RUNNING SIMULTENEOUSLY
+THREAD
+===========================================================
+SMALLEST UNIT OF DEPATCHABLE CODE
+================================================================
+LIFECYLCE OR STAGES OF THREAD
+=============================================================
+CREATION OF THREAD
+=========================================================
+THREAD CAN BE CREATED IN TWO WAYS
+=========================================================
+1.BY EXTENDING THE THREAD CLASS
+2.BY IMPLEMENTING RUNNABLE INTERFACE
+java.lang.Thread
+class Test extends Thread
+{
 
 
+}
+class X extends Y
+{
+
+}
+  class X extends Thread,Y
+{
 
 
+}
+class X extends Y implements Ruunable
+{
 
+}
 
+IMPLEMENTS RUNNABLE ALWAYS BETTER THAN EXTENDING THREAD CLASS
+REASON
+==================================================================================
+1.WHEN WE EXTENDS THE THREAD CLASS,THE CLASS BECOMES HEAVY.
+2.IF ANY CHILD CLASS WANT TO GET THREAD FACILITY,IT IS NOT POSSIBLE IN JAVA BECAUSE
+JAVA DOES NOT SUPPORT MULTIPLE INHERITANCE.BUT IN CASE OF IMPLEMENTS RUNNABLE
+IT IS POSSIBLE
+=====================================================================================
+THREAD SCHEDULING
+=====================================================================================
+PRIORITY
+========================================================================================
+THREAD PRIORITIES
+==================================
+1.MAX===10
+2.NORM===5 =====DEFAULT
+3.MIN====1
+VALUES RANGES BETWEEN 1 TO 10
+DAEMON THREAD IS THE LOW PRIORITY THREAD
+MAIN THREAD DOES NOT WAIT FOR DAEMON THREAD TO FINISH THE JOB
+DAEMON IS RUNNING IN  BACKGROUND
+=============================================================================
+1.SHARED RESOURCE
+2.SYNCHRONIZATION
+3.MUTEX
+4.CRITICAL SECTION
+5.DEADLOCK
+================================================================================
+SYNCHRONIZATION CAN BE DONE TWO WAYS
+===============================================================================
+1.BY USING SYNCHRONIZED KEYWORD
+2.BY USING SYNCHRONIZED BLOCK
+================================================================================
+wait()
+notify()
+notifyAll()
+==================================================================================
 
-
-
-
-
-
-
-
-
+CONSUMER PRODUCER PROBLEM
+=================================================================================
 
 
 
