@@ -418,6 +418,104 @@ notifyAll()
 
 CONSUMER PRODUCER PROBLEM
 =================================================================================
+DATE:20.04.2025
+==================================================================================
+COLLECTION FRAMEWORK
+===================================================================================
+
+ARRAY
+================================================================================
+PROBLEM AREAS IN ARRAY
+=================================================
+1.IT IS IN FIXED SIZE
+2.IT ALLOW ONLY HOMOGENEOUS ELEMENTS
+COLLECTION
+====================================================================
+COLLECTION IS AN OBJECT WHICH HOLDS GROUP OF OBJECTS.THESE INDIVUAL OBJECTS
+ARE CALLED ELEMENTS.THIS BELONGS java.util.*;
+ARRAY                   VS                        COLLECTION
+=============================================================================
+IT IS IN FIXED SIZE                    IT IS DYNAMIC
+IT ALLOW ONLY HOMOGENEOUS ELEMEMTS     IT ALLOW BOTH HOMOGENEOUS AND HETEROGENEOUS ELEMENTS
+IN CASE OF MEMORY MANAGEMENT IT        IN CASE OF MEMORY MANAGEMENT IT IS RECOMMENDED
+IS  NOT RECOMMENDED
+PERFORMANCE WISE ARRAY BETTER
+THERE IS NO UNDERLYING DATA STRUCTURE   THERE IS  UNDERLYING DATA STRUCTURE INVOLVED.
+
+IS THERE.THEREFORE NO PREDEFINED METHODS  THEREFORE PREDEFINED METHODS ARE THERE
+==============================================================================================
+import java.util.*;
+
+ARRAYLIST
+=======================================
+1.DYNAMIC ARRAY
+2.INSERTION ORDER PRESERED
+2.UNDERLYING DATASTRUCTURE IS GROWABLE OR RESIZABLE ARRAY
+4.IT ALLOW BOTH HOMOGEMEOUS AND HETEROGENEOUS ELEMENTS
+CURSOR
+===========================================
+1.ITERATOR
+2.LISITERATOR
+3.ENUMERATION
+HASHSET
+===============================
+1.UNDERLYING DATASTRUCTURE IS HASHTABLE
+2.DATA WILL BE FETCHED BASED ON HASHCODE
+3.IT IS BASED FOR SEARCHING TEACHNIQUE
+4.NO  DUPLICATION ALLOWED
+5.SUPPORT BOTH HOMOGENEOUS AND HETEROGENEOUS ELEMENTS.
+=========================================================================
+Comparable==compareTo()
+Comparator===compare
+=========================================================================
+MAP 
+==========================================================================
+MAP IS A COMBINATION OF KEY & VALUE PAIR.
+HERE KEY PART ARE NOT DUPLICATED 
+VALUE PART MAY BE DUPLICATED
+
+POJO CLASS
+================================================================
+PLAIN OLD JAVA OBJECT
+====================================
+CONSTRUCTOR
+GETTER()   SETTER()
+toString()
+=========================================================================
+LOGIN IN MYSQL
+======================================
+THREE WAYS
+====================================
+1.MYSQL WORKBENCH
+2.MYSQL COMMAND LINE CLIENT
+3.COMMAND PROMPT
+============================================
+DBMS
+=============================================
+DATABASE MANAGEMENT SYSTEM
+DBMS==DATABASE+SQL(STRUCTED QUERY LANAGUAGE)
+JAVA,C++====HLL==COMPILER/INTERPRETER====0,1
+ARRAY
+STORING DATA
+FETCH DATA
+BOTH HOW PART AND WHAT PART KNOWN TO US
+SQL===4TH GEN==NON PROCEDUARL LANGUAGE
+SELECT * FROM STUDENT;
+HOW PART IS NOT KNOWN TO US ONLY WHAT PART IS KNOWN TO US
+RDBMS==RELATIONAL DATABASE MANAGEMENT SYSTEM
+CREATE TABLE STIDENT
+(ROLLNO  INT,
+ SNAME   VARCHAR(25),
+ DEPTNM  VARCHAR(25)
+);
+DESC STUDENT;
+INSERT INTO STUDENT VALUES(1,'SAYAN','IT');
+SELECT * FROM STUDENT;
+
+
+
+
+
 
 
 

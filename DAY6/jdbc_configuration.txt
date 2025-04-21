@@ -1,0 +1,7 @@
+JDBC CONFIGURATION WITH MYSQL
+==========================
+DRIVER=com.mysql.cj.jdbc.Driver
+URL=jdbc:mysql://localhost:3306/test
+USERNAME=root
+password=arindam
+==========================
